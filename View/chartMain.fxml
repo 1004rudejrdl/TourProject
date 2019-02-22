@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #828282;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.chartController">
+   <children>
+      <Button fx:id="chartVisitRankJapan" layoutX="38.0" layoutY="102.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="Dec. 2018 Visitor Arrivals to Japan" textFill="#d3c64a" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="chartVisitRankPrefecture" layoutX="23.0" layoutY="201.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="2018 Visit Rate Ranking by Prefecture" textFill="#d3c64a" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="chartVisitRankGuests" layoutX="18.0" layoutY="297.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="2018 Guests in Local Accommodations" textFill="#d3c64a" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button fx:id="chartContinue" layoutX="149.0" layoutY="398.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="Continue" textFill="#d3c64a" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

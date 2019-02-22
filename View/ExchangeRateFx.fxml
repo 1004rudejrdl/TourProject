@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.Group?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ExchangeRateFxController">
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #828282;" stylesheets="@../mainTest/buttontxt.css">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <children>
+            <Label fx:id="lbfrom" layoutX="515.0" layoutY="151.0" text="KRW">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tffrom" layoutX="331.0" layoutY="138.0" prefHeight="29.0" prefWidth="173.0" promptText="환전하려는 금액" />
+            <ComboBox fx:id="cbfinance" layoutX="331.0" layoutY="184.0" onAction="#cbdistanceOnAction" prefHeight="29.0" prefWidth="172.0" promptText="Country" />
+            <TextField fx:id="tfusd" editable="false" layoutX="50.0" layoutY="140.0" prefHeight="30.0" prefWidth="160.0" promptText="USD" />
+            <Label fx:id="lbboard" alignment="CENTER" layoutX="45.0" layoutY="33.0" prefHeight="28.0" prefWidth="342.0" text="The Exchange Rate Situation">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="119.0" text="1 USD">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfjpy" editable="false" layoutX="50.0" layoutY="216.0" prefHeight="30.0" prefWidth="160.0" promptText="JPY" />
+            <TextField fx:id="tfcny" editable="false" layoutX="50.0" layoutY="289.0" prefHeight="30.0" prefWidth="160.0" promptText="CNY" />
+            <Label layoutX="50.0" layoutY="190.0" text="1 JPY">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="269.0" text="1 CNY">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btncon" layoutX="46.0" layoutY="74.0" mnemonicParsing="false" onAction="#onConvertAction" prefHeight="29.0" prefWidth="202.0" style="-fx-background-color: #877800;" text="Present Rate" />
+            <TextField fx:id="tfto" layoutX="331.0" layoutY="229.0" prefHeight="29.0" prefWidth="173.0" promptText="환전된 금액" />
+            <Label fx:id="lbto" layoutX="517.0" layoutY="237.0" text="USD">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+        		<RadioButton fx:id="rdother" layoutX="332.0" layoutY="279.0" mnemonicParsing="false" onAction="#onOtherAction" selected="true" text="다른 국가화폐로 환전">
+        	<toggleGroup>
+           		<ToggleGroup fx:id="toggle" />
+       		</toggleGroup>
+            </RadioButton>
+                <RadioButton fx:id="rdkrw" layoutX="332.0" layoutY="310.0" mnemonicParsing="false" onAction="#onKrwAction" text="대한민국 한화로 환전" toggleGroup="$toggle" />
+            <Label layoutX="216.0" layoutY="145.0" text="KRW">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="215.0" layoutY="221.0" text="KRW">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="215.0" layoutY="293.0" text="KRW">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Separator layoutX="294.0" layoutY="72.0" orientation="VERTICAL" prefHeight="300.0" />
+           
+            
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

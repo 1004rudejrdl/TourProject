@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="300.0" style="-fx-background-color: #828282;" stylesheets="@../mainTest/button2.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.cityChoice">
+   <children>
+      <Button fx:id="cityTokyo" layoutX="92.0" layoutY="58.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="Tokyo">
+         <font>
+            <Font name="Book Antiqua" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="cityOsaka" layoutX="92.0" layoutY="158.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="Osaka">
+         <font>
+            <Font name="Book Antiqua" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="citySapporo" layoutX="79.0" layoutY="259.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="Sapporo">
+         <font>
+            <Font name="Book Antiqua" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="cityOkinawa" layoutX="74.0" layoutY="357.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="Okinawa">
+         <font>
+            <Font name="Book Antiqua" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="cityFukuoka" layoutX="76.0" layoutY="459.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="Fukuoka">
+         <font>
+            <Font name="Book Antiqua" size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="cityBack" layoutX="226.0" layoutY="557.0" mnemonicParsing="false" style="-fx-background-color: #828282;" text="X">
+         <font>
+            <Font name="Book Antiqua" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="800.0" style="-fx-background-color: #A6A6A6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.superController">
+   <children>
+      <TableView fx:id="superTableView" layoutX="14.0" layoutY="73.0" prefHeight="200.0" prefWidth="770.0">
+        <columns>
+          <TableColumn prefWidth="99.0" text="ID" />
+          <TableColumn prefWidth="91.0" text="PassWord" />
+            <TableColumn prefWidth="109.0" text="Name" />
+            <TableColumn prefWidth="70.0" text="Gen" />
+            <TableColumn prefWidth="173.0" text="Phone" />
+            <TableColumn prefWidth="227.0" text="Email" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="24.0" text="Administrator">
+         <font>
+            <Font name="Book Antiqua Bold" size="26.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.okinawaController">
+   <children>
+      <AnchorPane layoutY="2.0" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: white;" stylesheets="@../mainTest/button3.css">
+      	<children>
+      		<TableView fx:id="okinawaTableView" layoutX="23.0" layoutY="83.0" prefHeight="264.0" prefWidth="654.0">
+      			<columns>
+      				<TableColumn prefWidth="148.0" text="TourID" />
+      				<TableColumn prefWidth="223.0" text="TourName" />
+      				<TableColumn prefWidth="111.0" text="TourClass" />
+      				<TableColumn prefWidth="171.0" text="TourCharge(JPY)" />
+      			</columns>
+      		</TableView>
+      		<Label layoutX="106.0" layoutY="368.0" text="My Tour List">
+      			<font>
+      				<Font size="23.0" />
+      			</font>
+      		</Label>
+      		<Button fx:id="okinawaAddButton" layoutX="350.0" layoutY="409.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="327.0" style="-fx-background-color: #D5D5D5;" text="The Add List" />
+      		<Button fx:id="okinawaBackButton" layoutX="350.0" layoutY="489.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="327.0" style="-fx-background-color: #D5D5D5;" text="The Back to City Choice" />
+      		<Button fx:id="okinawaFinalButton" layoutX="350.0" layoutY="571.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="327.0" style="-fx-background-color: #D5D5D5;" text="A Final Decision" />
+      		<Label layoutX="378.0" layoutY="368.0" text="Click the Desired Button">
+      			<font>
+      				<Font size="23.0" />
+      			</font>
+      		</Label>
+      		<Label layoutX="23.0" layoutY="30.0" text="Okinawa">
+      			<font>
+      				<Font size="28.0" />
+      			</font>
+      		</Label>
+      		<Button fx:id="okinawaDeleteButton" layoutX="23.0" layoutY="647.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="304.0" style="-fx-background-color: #D5D5D5;" text="Delete My List" />
+      		<Button fx:id="okinawaExitButton" layoutX="350.0" layoutY="647.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="327.0" style="-fx-background-color: #D5D5D5;" text="Exit" />
+            <TableView fx:id="okinawaMyTourTableView" layoutX="23.0" layoutY="409.0" prefHeight="224.0" prefWidth="304.0">
+              <columns>
+                <TableColumn prefWidth="135.0" text="MyTourID" />
+                <TableColumn prefWidth="168.0" text="MyTourName" />
+              </columns>
+            </TableView>
+      	</children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="320.0" style="-fx-background-color: #A6A6A6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="48.0" layoutY="282.0" text="E-Mail :" />
+      <TextField fx:id="superInfoEmail" layoutX="121.0" layoutY="277.0" prefHeight="29.0" prefWidth="172.0" />
+      <TextField fx:id="superInfoPhone" layoutX="121.0" layoutY="227.0" prefHeight="29.0" prefWidth="172.0" />
+      <Label layoutX="49.0" layoutY="232.0" text="Phone :" />
+      <Label layoutX="40.0" layoutY="182.0" text="Gender :" />
+      <Label layoutX="50.0" layoutY="132.0" text="Name :" />
+      <TextField fx:id="superInfoName" layoutX="121.0" layoutY="127.0" prefHeight="29.0" prefWidth="172.0" />
+      <PasswordField fx:id="superInfoPass" layoutX="121.0" layoutY="79.0" prefHeight="29.0" prefWidth="172.0" />
+      <Label layoutX="23.0" layoutY="84.0" text="PassWord :" />
+      <TextField fx:id="superInfoID" layoutX="120.0" layoutY="36.0" prefHeight="29.0" prefWidth="172.0" />
+      <Label layoutX="56.0" layoutY="41.0" text="I    D :" />
+      <Button fx:id="superInfoBtnModi" layoutX="47.0" layoutY="334.0" mnemonicParsing="false" text="Modify" />
+      <Button fx:id="superInfoBtnDelete" layoutX="127.0" layoutY="334.0" mnemonicParsing="false" text="Delete" />
+      <Button fx:id="superInfoBtnCancel" layoutX="207.0" layoutY="334.0" mnemonicParsing="false" text="Cancel" />
+      <TextField fx:id="superInfoGen" layoutX="121.0" layoutY="177.0" prefHeight="29.0" prefWidth="172.0" />
+   </children>
+</AnchorPane>

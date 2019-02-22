@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #828282;" stylesheets="@../mainTest/button4.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.finalController">
+   <children>
+      <TableView fx:id="finalTableView" layoutX="24.0" layoutY="84.0" prefHeight="254.0" prefWidth="654.0">
+        <columns>
+          <TableColumn prefWidth="148.0" text="TourID" />
+          <TableColumn prefWidth="223.0" text="TourName" />
+            <TableColumn prefWidth="111.0" text="TourClass" />
+            <TableColumn prefWidth="171.0" text="TourCharge(JPY)" />
+        </columns>
+      </TableView>
+      <Label layoutX="24.0" layoutY="29.0" text="Fianl Decision">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBackTourList" layoutX="24.0" layoutY="454.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="31.0" style="-fx-background-color: #D5D5D5;" text="&lt;" />
+      <Button fx:id="btnDecisionExit" layoutX="646.0" layoutY="454.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="32.0" style="-fx-background-color: #D5D5D5;" text="X" />
+      <Button fx:id="btnCalExchange" layoutX="429.0" layoutY="388.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="231.0" style="-fx-background-color: #D5D5D5;" text="Calculate Exchange Rate" />
+      <Button fx:id="btnTotalCharge" layoutX="48.0" layoutY="388.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="162.0" style="-fx-background-color: #D5D5D5;" text="Total Charge" />
+      <TextField fx:id="txtTotalCharge" layoutX="226.0" layoutY="388.0" prefHeight="29.0" prefWidth="189.0" />
+   </children>
+</AnchorPane>

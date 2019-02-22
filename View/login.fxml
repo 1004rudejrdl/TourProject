@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="350.0" prefWidth="400.0" style="-fx-background-color: #828282;" stylesheets="@../../../../../../../../../../../java_Project/exerciseTest1/src/mainTest/button.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Rootcontroller">
+   <children>
+      <TextField fx:id="loginTextFieldID" layoutX="126.0" layoutY="137.0" prefHeight="29.0" prefWidth="145.0" promptText="UserID" style="-fx-background-color: #828282;" />
+      <PasswordField fx:id="loginTextFieldPassword" layoutX="126.0" layoutY="186.0" prefHeight="29.0" prefWidth="145.0" promptText="Password" style="-fx-background-color: #828282;" />
+      <Button fx:id="loginBtnLogIn" layoutX="43.0" layoutY="286.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="95.0" style="-fx-background-color: #828282;" text="Log In">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+      <Button fx:id="loginBtnMemberShip" layoutX="142.0" layoutY="286.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="136.0" style="-fx-background-color: #828282;" text="MemberShip" />
+      <Button fx:id="loginBtnExit" layoutX="277.0" layoutY="286.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="75.0" style="-fx-background-color: #828282;" text="Exit" />
+      <Label fx:id="errorMessage" layoutX="86.0" layoutY="225.0" prefHeight="19.0" prefWidth="217.0" style="-fx-background-color: #828282;" />
+      <Label layoutX="94.0" layoutY="53.0" prefHeight="52.0" prefWidth="210.0" text="旅行に行く " textFill="#434340">
+         <font>
+            <Font name="Book Antiqua" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnSuper" layoutX="280.0" layoutY="79.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="29.0" style="-fx-background-color: #828282;" text="o" />
+      <Line endX="100.0" layoutX="224.0" layoutY="166.0" startX="-100.0" stroke="#d7d76c" />
+      <Line endX="100.0" layoutX="224.0" layoutY="215.0" startX="-100.0" stroke="#d7d76c" />
+      <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="78.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/iconfinder_group_71856.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="29.0" fitWidth="37.0" layoutX="78.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/iconfinder_key_82744.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
