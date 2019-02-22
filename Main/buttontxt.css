@@ -1,0 +1,17 @@
+TextField, PasswordField{
+   /*-fx-font-family:"³ª´®¹Ù¸¥Ææ";*/
+   /*-fx-background-color:darkgray;*/
+   /*-fx-font-size:25;*/
+   -fx-background-radius:0;
+   -fx-opacity: 0.5;
+   -fx-font-color:white;
+}
+
+TextField:focused, PasswordField:focused{
+   /*-fx-font-family:"³ª´®¹Ù¸¥Ææ";*/
+   /*-fx-background-color:darkgray;*/
+   /*-fx-font-size:25;*/
+   -fx-background-radius:0;
+   -fx-opacity: 1;
+   -fx-text-fill: black;
+}
